@@ -135,7 +135,7 @@ section#inicio span#sub-tittle
 
 section#inicio div#arraste
 {
-    width: 10rem;
+    width: 7rem;
     text-decoration: none;
 
 }
@@ -143,7 +143,7 @@ section#inicio div#arraste
 section#inicio div#arraste a
 {
     text-decoration: none;
-    font-size: 1.0rem;
+    font-size: 1rem;
     color: #fff;
 }
 
@@ -205,4 +205,22 @@ i.menu-mobile
     {
         margin-left: 0;
     }
+}
+
+*::-webkit-scrollbar
+{
+    width: 11px;
+}
+
+*::-webkit-scrollbar-track
+{
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #00000050;
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb
+{
+    background-color: #252c90;
+    border-radius: 5px;
 }
